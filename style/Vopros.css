@@ -1,0 +1,17 @@
+form{
+    width: 600px;
+    margin-left: 350px;
+    text-align: center;
+}
+
+fieldset{
+    text-align: center;
+    border-color: #ae0c0c;
+    height: 200px;
+    width: 600px;
+}
+
+em {
+    color: #ae0c0c;
+}
+

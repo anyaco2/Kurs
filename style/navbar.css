@@ -1,0 +1,145 @@
+.navbar{
+    display: flex;
+    background-color:  #D9D9D9;
+    width: 100%;
+}
+
+.drop a{
+    color: #AE0C0C;
+    text-decoration: none;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    left: 0px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 43px;
+    background-color:  #D9D9D9;
+    display: flex;
+}
+
+.nav-list{
+    display: flex;
+    margin-left: 550px;
+    justify-content: center;
+    width: 100%;
+    
+}
+
+
+
+.nav-list ul{
+    list-style-type: none;
+    position: relative;
+    
+}
+
+.nav-list ul ul{
+    display: none;
+    position: absolute;
+
+}
+
+.nav-list ul li{
+    display: inline-block;
+    
+}
+
+.nav-list ul li:hover>ul{
+    display: inherit;
+    background-color: #D9D9D9;
+
+}
+
+.nav-list ul ul li{
+    min-width:170px;
+	float:none;
+	display:list-item;
+	position: relative;
+}
+
+.nav-list a{
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Palatino Linotype';
+    
+}
+
+.nav-list a:hover{
+    background-color: #AE0C0C;
+    color: #D9D9D9;
+    display: block;
+    
+}
+
+
+@media (max-width: 1500px){
+    .nav-list{
+        margin-left: 100px;
+    }
+
+    .drop:hover .nav-list{
+        background-color: #D9D9D9;
+        display: block;
+        position: absolute;
+        right: 1px;
+    }
+    .navbar{
+        justify-content: space-between;
+    } 
+
+}
+
+@media (max-width: 1000px){
+    .nav-list{
+        margin-left: 100px;
+    }
+
+    .drop:hover .nav-list{
+        background-color: #D9D9D9;
+        display: block;
+        position: absolute;
+        right: 1px;
+    }
+    .navbar{
+        justify-content: space-between;
+    } 
+
+}
+
+@media (max-width: 820px){
+    .nav-list{
+        margin-left: 70px;
+    }
+
+    .drop:hover .nav-list{
+        background-color: #D9D9D9;
+        display: block;
+        position: absolute;
+        right: 1px;
+    }
+    .navbar{
+        justify-content: space-between;
+    } 
+
+}
+
+@media (max-width: 600px){
+
+    .drop:hover .nav-list{
+        background-color: #D9D9D9;
+        display: block;
+        position: absolute;
+        right: 1px;
+    }
+    .navbar{
+        justify-content: space-between;
+    } 
+
+}

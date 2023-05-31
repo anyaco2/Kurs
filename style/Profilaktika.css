@@ -1,0 +1,127 @@
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-style: inset;
+    border-width: 0 140px 220px 140px;
+    border-color: transparent transparent #ae0c0c transparent;
+    float: left;
+    margin-top: 100px;
+    margin-left: 850px;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+
+.triangle>p{
+    color: #DEDEDE;
+    text-align: center;
+    font-size: 15px;
+    top: 110px;
+    left: -97px;
+    position: relative;
+    width: 193px;
+    height: 193px;
+    margin: 0px;
+}
+
+.triangle>p>big{
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.trapez{
+    height: 0px;
+    width: 300px;
+    border-bottom: 300px solid #DEDEDE;
+    border-left: 170px solid transparent;
+    border-right: 170px solid transparent;
+    float: left;
+    margin-top: 22px;
+    margin-left: 670px;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.trapez>p{
+    text-align: center;
+    font-size: 20px;
+    top: 30px;
+    left: -97px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    margin: 0px;
+}
+
+.trapez>p>big{
+    font-size: 33px;
+    color: #ae0c0c;
+}
+
+
+.trapez2{
+    height: 0;
+    width: 660px;
+    border-bottom: 400px solid #DEDEDE;
+    border-left: 250px solid transparent;
+    border-right: 250px solid transparent;
+    border-top: 120px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 410px;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.trapez2>p{
+    text-align: center;
+    font-size: 25px;
+    top: 60px;
+    left: -107px;
+    position: relative;
+    width: 900px;
+    height: 900px;
+    margin: 0px;
+}
+
+.trapez2>p>big{
+    font-size: 30px;
+    color: #ae0c0c;
+}
+
+.kvadr{
+    height: 0;
+    width: 1160px;
+    border-bottom: 400px solid #DEDEDE;
+
+    border-top: 280px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 410px;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.kvadr>p{
+    text-align: center;
+    font-size: 30px;
+    top: 110px;
+    left: 77px;
+    position: relative;
+    width: 1000px;
+    height: 200px;
+    margin: 0px;
+}
+
+.kvadr>p>big{
+    font-size: 40px;
+    color: #ae0c0c;
+}

@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    display: block;
+}
+
+.text  P{
+    font-family: 'Playfair Display';
+}
+
+.DopUstr{
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.DopUstr .image,
+.DopUstr .text{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+.DopUstr .image img{
+    width: 100%;
+
+}
+
+.DopUstr .text{
+    background: rgba(174, 12, 12, 0.9);
+    top: 0;
+    left: 100%;
+    padding-left: 10px;
+    padding-top: 30px;
+    margin-right: 10px;
+    
+}
+
+.DopUstr:hover .text{
+    top: 0;
+    left: 0;
+
+}
+
+.DopUstr .text p{
+    margin: 12px;
+    color: #DEDEDE;
+    letter-spacing: 0.6px;
+    font-size: 14px;
+    width: 400px;
+    height: 400px;
+    text-align: left;
+}

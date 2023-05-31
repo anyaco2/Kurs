@@ -1,0 +1,57 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.ssulki a{
+
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.ssulki a:hover{
+    color: #ae0c0c;
+    text-decoration: underline;
+}
+
+.ssulki {
+    width: 380px;
+    height: 180px;
+    padding-top: 15px;
+    
+} 
+
+.ssulki a{
+    outline: 1px solid #ae0c0c;
+    width: 370px;
+    height: 30px;
+    display: inline-block;
+    padding-left: 10px;
+    padding-top: 10px;
+    
+}
+
+caption{
+    color: #ae0c0c;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 23px;
+    font-family: 'Playfair Display';
+}
+
+table{
+    position: absolute;
+    border-collapse: collapse;
+    display: inline-block;
+    left: 35%;
+}
+
+td{
+    border: 1px solid #DEDEDE;
+    padding: 1em;
+    text-align: center;
+    background-color: #DEDEDE;
+    color: #000000;
+}

@@ -1,0 +1,70 @@
+.kvadr{
+    height: 0;
+    width: 600px;
+    border-bottom: 100px solid #8a8686;
+    outline: 2px solid #5e5d5d;
+    border-top: 280px;
+    float: left;
+    margin-top: 22px;
+    margin-left: 20%;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.kvadr>p{
+    text-align: center;
+    font-size: 25px;
+    top: 30px;
+    position: relative;
+    width: 600px;
+    height: 100px;
+    margin: 0px;
+}
+
+.kvadr2{
+    height: 0;
+    width: 600px;
+    border-bottom: 800px solid #DEDEDE;
+    outline: 2px solid #8a8a8a;
+    border-top: 280px;
+    float: left;
+    margin-left: 20%;
+    -o-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+}
+.kvadr2>p{
+    padding: 1em;
+    display: flex;
+    text-align: justify;
+    top: 10px;
+    font-size: 15px;
+    position: relative;
+    width: 570px;
+    height: 200px;
+    margin: 0px;
+}
+
+.kvadr2>ul{
+    padding: 1em;
+    text-align: justify;
+    font-size: 15px;
+    position: relative;
+    width: 550px;
+    height: 100px;
+    margin: 0px;
+    margin-top: 20px;
+}
+
+.kvadr2>ul>li{
+    margin-left: 20px;
+    
+}
+
+font{
+    font-size: 5px;
+}
